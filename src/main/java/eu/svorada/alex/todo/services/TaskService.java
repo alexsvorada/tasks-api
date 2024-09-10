@@ -33,7 +33,6 @@ public class TaskService {
       .orElseThrow(() -> createEntityNotFoundException(id));
   }
 
-
   @Transactional
   public void updateTask(final Task task) throws EntityNotFoundException {
     final Long id = task.getId();
