@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TodoAppApplication {
 
 	//TODO Add logging code-wide
+	//TODO Add validation for Task entity
 	public static void main(String[] args) {
 		SpringApplication.run(TodoAppApplication.class, args);
 	}
